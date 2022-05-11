@@ -1,21 +1,53 @@
 /*This is the CSS page for our final Bootstrap template.*/
 
+.headline{
+	font-style: normal;
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+}
+
+.solid{
+    border-top: 3px solid;
+    color: #E54B4B;
+}
+
 .dek {
 	font-style: normal;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
 }
+
 .byline {
 	font-style: italic;
-	font-family: 'Poppins', serif;
+	font-family: 'Ubuntu', serif;
 }
+
+#pictures{
+	padding-left:70px;
+}
+
+#top-picture{
+	margin-bottom: 30px;
+}
+
 .section {
 	text-align: left;
 }
+
+.jumbotron-fluid{
+	width: 100%;
+}
+
+.card-img-top{
+	height:auto ;
+	width:100% ;
+}
+
 img {
-	border: 2px solid maroon;
+	border: 2px solid black;
 }
 .accordion-button:not(.collapsed), .accordion-button:focus {
-	font-family: Poppins, serif;
+	font-family: Ubuntu, serif;
 	background-color: mintcream;
 	color: black;
 	margin-bottom: 10px;
